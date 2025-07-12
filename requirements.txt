@@ -1,0 +1,22 @@
+# Core dependencies for WeCare247 Churn Prediction Automation
+requests>=2.28.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+joblib==1.4.2
+
+# Environment variables support
+python-dotenv==1.0.1
+
+# Optional dependencies for enhanced functionality
+openpyxl>=3.0.0  # For Excel file support
+xlrd>=2.0.0      # For reading Excel files
+fastapi==0.111.0  # For API functionality
+uvicorn[standard]==0.30.0  # For running FastAPI
+
+# Additional utilities used in your setup
+lifelines==0.30.0
+slack_sdk==3.27.2
+
+# Note: datetime and logging are built-in Python modules, no need to install
+# Note: pathlib2 is only needed for Python < 3.4, removed for modern Python

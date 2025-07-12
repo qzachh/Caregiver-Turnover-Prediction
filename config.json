@@ -1,0 +1,25 @@
+{
+  "google_sheets": {
+    "sheet_id": "XXX",
+    "gid": "123456789",
+    "timeout": 30,
+    "description": "Replace sheet_id with your actual Google Sheet ID and gid with your sheet tab ID"
+  },
+  "file_paths": {
+    "data_dir": "data",
+    "models_dir": "models",
+    "processed_data_filename": "Caregiver Prediction - Processed_Data.csv",
+    "predictions_filename": "churn_predictions.csv",
+    "log_filename": "automation_log.txt"
+  },
+  "automation": {
+    "auto_open_results": true,
+    "create_summary_report": true,
+    "enable_logging": true
+  },
+  "model_settings": {
+    "train_churn_model": true,
+    "train_tenure_model": true,
+    "batch_size": 1000
+  }
+}
